@@ -1,3 +1,10 @@
 ng new angularblog --standalone false
 
+cd angularblog
+
 ng serve
+
+ng generate component inicio --standalone false
+ng generate component blog --standalone false
+ng generate component quiensoy --standalone false
+ng generate component contacto --standalone false
