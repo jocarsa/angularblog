@@ -1,1 +1,7 @@
 <p>blogeninicio works!</p>
+
+<article *ngFor="let entrada of jsonData2">
+    <h3>{{entrada.titulo}}</h3>
+    <time>{{entrada.fecha}}</time>
+    <p>{{entrada.contenido}}</p>
+</article>
