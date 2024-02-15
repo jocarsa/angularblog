@@ -9,6 +9,6 @@ export class EntradasblogService {
 
   constructor(private http: HttpClient) { }
     getData(): Observable<any> {
-    return this.http.get<any>('http://localhost:8080/eventos');
+    return this.http.get<any>('http://localhost:8080/blog');
   }
 }
