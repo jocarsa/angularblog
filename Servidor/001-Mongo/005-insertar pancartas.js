@@ -6,11 +6,11 @@ db.pancarta.insertMany(
         },
         {
             'titulo':'Formación',
-            'contenido':'Presencial y online'
+            'subtitulo':'Presencial y online'
         },
         {
             'titulo':'Diseño',
-            'contenido':'Diseño 3d'
+            'subtitulo':'Diseño 3d'
         }
     ]
 );
