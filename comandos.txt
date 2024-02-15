@@ -13,3 +13,5 @@ ng generate component cabecera --standalone false
 ng generate component piedepagina --standalone false
 
 ng generate service entradasblog
+
+ng generate service pancartas
