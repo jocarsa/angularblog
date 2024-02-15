@@ -11,6 +11,7 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { PiedepaginaComponent } from './piedepagina/piedepagina.component'; 
 
 import { HttpClientModule } from '@angular/common/http';
+import { BlogeninicioComponent } from './blogeninicio/blogeninicio.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     QuiensoyComponent,
     ContactoComponent,
     CabeceraComponent,
-    PiedepaginaComponent
+    PiedepaginaComponent,
+    BlogeninicioComponent
   ],
   imports: [
     BrowserModule,

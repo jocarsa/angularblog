@@ -19,3 +19,5 @@ ng generate service pancartas
 ng generate service sobremi
 
 ng build
+
+ng generate component blogeninicio --standalone false
