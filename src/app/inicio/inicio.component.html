@@ -1,6 +1,9 @@
 <p>Soy la página de inicio</p>
-
-<article *ngFor="let pancarta of jsonData">
-    <h3>{{pancarta.titulo}}</h3>
-    <p>{{pancarta.subtitulo}}</p>
-</article>
+<section>
+    <div id="contienepancartas">
+        <article *ngFor="let pancarta of jsonData">
+            <h3>{{pancarta.titulo}}</h3>
+            <p>{{pancarta.subtitulo}}</p>
+        </article>
+    </div>
+</section>

@@ -1,0 +1,32 @@
+section{
+    width:800px;
+    height:400px;
+    background:rgb(220,220,220);
+    overflow:hidden;
+    position:relative;
+}
+#contienepancartas{
+    width:3200px;
+    height:400px;
+    animation:muevepancarta 10s;
+    animation-iteration-count: infinite;
+    position:absolute;
+}
+@keyframes muevepancarta{
+    0%{left:0px}
+    25%{left:0px;}
+    30%{left:-800px;}
+    50%{left:-800px;}
+    55%{left:-1600px;}
+    75%{left:-1600px;}
+    80%{left:-2400px;}
+    100%{left:-2400px;}
+    
+}
+article{
+    width:800px;
+    height:400px;
+    float:left;
+    box-sizing:border-box;
+    padding:30px;
+}
