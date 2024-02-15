@@ -8,3 +8,6 @@ ng generate component inicio --standalone false
 ng generate component blog --standalone false
 ng generate component quiensoy --standalone false
 ng generate component contacto --standalone false
+
+ng generate component cabecera --standalone false
+ng generate component piedepagina --standalone false
