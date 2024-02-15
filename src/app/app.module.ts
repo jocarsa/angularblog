@@ -8,7 +8,9 @@ import { BlogComponent } from './blog/blog.component';
 import { QuiensoyComponent } from './quiensoy/quiensoy.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
-import { PiedepaginaComponent } from './piedepagina/piedepagina.component';
+import { PiedepaginaComponent } from './piedepagina/piedepagina.component'; 
+
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { PiedepaginaComponent } from './piedepagina/piedepagina.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
