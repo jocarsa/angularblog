@@ -4,7 +4,12 @@ const express = require("express");
 let aplicacion = express();
 
 aplicacion.get("/blog",(req,res) => {
-    res.send("Hola soy el blog");
+    res.send(`
+             {
+                'titulo':'Primera entrada',
+                'fecha':'2024-02-15'
+            }
+             `);
 })
 
 aplicacion.listen(8080, () =>{
