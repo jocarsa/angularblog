@@ -1,0 +1,3 @@
+ng new angularblog --standalone false
+
+ng serve
